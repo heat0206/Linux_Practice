@@ -4,27 +4,24 @@
 
 **Purpose**: Lists the files and directories in the current working directory.
 
-```bash
-ls [options] [directory]
-```
+**Syntax**:`ls [options] [directory]`
 
 ### Common Options
 
 |Command|Description|
 |-------|-----------|
-|ls|List Files|
-|ls -a| Show hidden files|
-|ls -l| Long Format |
-|ls -t| Sort by Time |
-|ls -r| Reverse Order |	
+|`ls`|List Files|
+|`ls -a`| Show hidden files|
+|`ls -l`| Long Format |
+|`ls -t`| Sort by Time |
+|`ls -r`| Reverse Order |	
 
 2. **pwd**:
 
 **Purpose**: Prints the current working directory.
 
-```bash
-pwd
-```
+**Syntax**:`pwd`
+
 3. **mv**:
 
 **Purpose**: To change the name of a folder or file.
@@ -36,4 +33,33 @@ pwd
 
 **Purpose**: To change the working directory.
 
-**syntax**: `cd [file path]`
+**Syntax**: `cd [file path]`
+
+### Common options
+| Command | Description |
+|---------|-------------|
+|`cd ..` | Go back |
+
+5. **touch**:
+
+**Purpose**: To create a new file
+
+**Syntax**:`touch [filename]`
+
+6. **nano**:
+
+**Purpose**: To append into a file (if no file exists, it will create one)
+
+**Syntax**:`nano [filename]`
+
+
+7. **cat**:
+
+**Purpose**: To view and print the contents of a file in terminal.
+
+**Syntax**:`cat [file name]`
+
+### Common Options
+|Command|Description|
+|-------|-----------|
+|`cat >> [filename]`| appends into the file |
