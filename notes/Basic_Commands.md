@@ -63,3 +63,10 @@
 |Command|Description|
 |-------|-----------|
 |`cat >> [filename]`| appends into the file |
+
+8. **cp**:
+
+**Purpose**: To copy the contents of one file to another
+
+**Syntax**: `cp [SOURCE] [DESTINATION]`
+
