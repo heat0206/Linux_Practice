@@ -103,3 +103,15 @@
 
 > Note: This ONLY removes empty directories.
 
+14. **cmp**:
+
+**Purpose**: Compares 2 file byte by byte to check wether the files are identical or not
+
+**Syntax**: `cmp [file1] [file2]`
+
+15. **grep**:
+
+**Purpose**: to find and locate sting inside a given file
+
+**Syntax**: `grep [string (in "" if there are whitespaces)] [files to search from]`
+
