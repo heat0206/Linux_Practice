@@ -14,7 +14,8 @@
 |`ls -a`| Show hidden files|
 |`ls -l`| Long Format |
 |`ls -t`| Sort by Time |
-|`ls -r`| Reverse Order |	
+|`ls -r`| Reverse Order |
+|`ls -R`| Show ALL files (even in subdirectories)|
 
 2. **pwd**:
 
@@ -69,4 +70,36 @@
 **Purpose**: To copy the contents of one file to another
 
 **Syntax**: `cp [SOURCE] [DESTINATION]`
+
+9. **history**:
+
+**Purpose**: To see all the history of all commands written till now.
+
+**Syntax**: `history`
+
+10.  **clear**:
+
+**Purpose**: Clears the terminal screen.
+
+**Syntax**: `clear`
+
+11. **rm**:
+
+**Purpose**: Removes file from system without confirmation
+
+**Syntax**:`rm [filename]`
+
+12. **mkdir**:
+
+**Purpose**: To make Directories
+
+**Syntax**: `mkdir [options][directorynames]`
+
+13. **rmdir**:
+
+**Purpose**: To remove directories.
+
+**Syntax**: `rmdir [-p][-v|verboase] [-ignore-fail-on-non-empty] [directories]
+
+> Note: This ONLY removes empty directories.
 
