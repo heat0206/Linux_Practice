@@ -40,6 +40,7 @@
 | Command | Description |
 |---------|-------------|
 |`cd ..` | Go back |
+|`cd ~` | Go to Home from anywhere |
 
 5. **touch**:
 
@@ -89,6 +90,12 @@
 
 **Syntax**:`rm [filename]`
 
+### Common Options
+| Command | Description |
+|---------|-------------|
+| `rm -r` | Recursively removes |
+| `rm -r *[extension]` | Removes all files with the specified extension |
+
 12. **mkdir**:
 
 **Purpose**: To make Directories
@@ -115,3 +122,19 @@
 
 **Syntax**: `grep [string (in "" if there are whitespaces)] [files to search from]`
 
+16. **mv**:
+
+**Purpose**: To move files, rename files.
+
+**Syntax**: `mv [files] [location/new Name]`
+
+
+### Command Options
+| Command | Description |
+|---------|-------------|
+| `mv -i` | Asks for confirmation |
+| `mv -f` | Forcefully overwrites a write protected file and delete the old one |
+| `mv -n` | It prevents file from being overwritten |
+| `mv -b` | This command creates a backup before removing |
+
+17. 
