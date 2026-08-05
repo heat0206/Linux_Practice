@@ -137,4 +137,32 @@
 | `mv -n` | It prevents file from being overwritten |
 | `mv -b` | This command creates a backup before removing |
 
-17. 
+17. **chmod**: stands for 'change mode'
+
+| Person | Symbol |
+|----------|--------|
+| Owner | u |
+| Group | g |
+| Other Users | o |
+
+Permisions are in the order of Person as Owner Group Other respectively
+
+| number (in octal) | Permission |
+|-------------------|------------|
+| 7 | rwx |
+| 6 | rw- |
+| 5 | r-x |
+| 4 | r-- |
+| 3 | -wx |
+| 2 | -w- |
+| 1 | --x |
+| 0 | --- |
+
+**Syntax** : `chmod [number-number-number] [filename]`
+**example:**: `chmod 777 heet.txt`
+This would give all the people read write and execute access.
+
+| Command | Function |
+|---------|----------|
+|`chmod u+r` | grant the owner (`u`), the read permission (`+r`) |
+|`chmod go-w` | Do not give the group(`g`) and the other(`o`) people write access(`-w`) |
